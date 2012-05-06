@@ -51,6 +51,7 @@ a:active{
 h1{
 	font-size: 4em;
 	color: #fff;
+	background: #000;
 }
 
 h2, h3, h4{
