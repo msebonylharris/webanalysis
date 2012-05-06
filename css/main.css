@@ -15,7 +15,7 @@ body{
 nav ul li{
 	width: 28%;
 	background: #fff;
-	float: right;
+	float: left;
 	padding: .5em /*4px/16px */;
 	margin: .5em /*4px/16px */; 	  
 	list-style-type: none;
@@ -51,6 +51,7 @@ a:active{
 h1{
 	font-size: 4em;
 	color: #fff;
+	width:100%;
 }
 
 h2, h3, h4{
