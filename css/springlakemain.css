@@ -1,7 +1,4 @@
 /*=======================The Following CSS is Dedicated to the Body ========================*/
-/*-------Note, the Header also acts as an Escape Hatch that takes you back to the main page-------*/
-/*========= So that their is no major difference in design, the Header should always display the same
-at every state. I made the The link should never look different than the original design==========*/
 body{
   	float: left;
   	color: black;
@@ -73,9 +70,6 @@ h1 a:active{
 }
 
 /*====================The Following CSS is Dedicated to the page Main Navigation==================*/
-/*---------------There is to be six navigation buttons that are equal in length. -----------------*/
-/*========= So that their is no major difference in design, the Header should always display the same
-at every state. I made the The link should never look different than the original design==========*/
 header nav ul li{
 	width: 15.25%;
 	background: url('../images/navbg.jpg') repeat 20%;
@@ -138,24 +132,22 @@ header nav ul li a:active{
 .footerbgcontainer{
 	background: url('../images/footerbg.jpg') repeat 20%;
 	color: white;
-	width: 100%;
-	height: 600px;
+	width: 97%;
+	padding: .5em;
+  	margin: .5em;
+	height: 200px;
+	float: right;
+  	border: .25em solid #f00;
 }
 
-}
-
-/*.footerbgcontainer .title{
-	width: 15%;
+.title{
 	float: left;
-	padding: 1em;
-	margin: 1em;
-}*/
+}
 
 /*================THIS CSS IS USED FOR THE TABLE (this is located in the footer  ================*/  	
 td{
-  	padding: 50%;
+  	padding: .5%;
   	margin: .15%;
-	display: block;
 }
 
 table{
@@ -164,7 +156,7 @@ table{
   	float: right;
   	padding: .5em;
   	margin: 1em;
-	width: 80%;
+	width: 100%;
   }
   
 .footer_nav{
