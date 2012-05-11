@@ -51,8 +51,6 @@ a:active{
 h1{
 	font-size: 4em;
 	color: #fff;
-	background: #000;
-	padding: 1em;
 }
 
 h2, h3, h4{
@@ -101,4 +99,19 @@ footer{
 	background-color: #fff;
 	width: 100%;
 	float: left;
+}
+
+/*============This part of the css is dedicated to the footer section*/
+
+img{
+ 	padding: .5%;
+  	margin: .5%; 	  
+}
+
+#main_photo_container{
+	width: 100%;
+}
+
+#main_photo_container img{
+	max-width: 100%;
 }
