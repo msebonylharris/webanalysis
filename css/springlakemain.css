@@ -6,7 +6,7 @@ body{
   	border: .25em solid #fff;
  	padding: 10px;
 	margin: 10px;
-	background: url('../images/black.jpg') repeat 20%;
+	background-image: url('../images/black.jpg') repeat 20%;
 	width: 95%;
 }
 
