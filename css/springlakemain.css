@@ -28,7 +28,7 @@ h2{
 at every state. I made the The link should never look different than the original design==========*/
 h1{
 	font: 3em Georgia, Verdana, ariel;
-	background: url('../images/white.jpg') repeat center 20%/9;
+	background: url('../images/white.jpg') repeat center 20%;
   	color: #110588;
   	width: 95%;
   	margin: 1em;
@@ -36,7 +36,7 @@ h1{
 
 h1 a{
 	text-decoration: none;
-	background: url('../images/white.jpg') repeat 20%/9;
+	background: url('../images/white.jpg') repeat 20%;
 	display: block;
 	height: 2em;
 	line-height: 2em;
@@ -45,17 +45,17 @@ h1 a{
 }
 
 h1 a:visited{
-	color: url('../images/white.jpg') repeat 20%/9;
+	color: url('../images/white.jpg') repeat 20%;
 }
 
 h1 a:hover{
 	color: #110588;
-	background: url('../images/white.jpg') repeat 20%/9;
+	background: url('../images/white.jpg') repeat 20%;
 }
 
 h1 a:active{
 	color: #110588;
-	background: url('../images/white.jpg') repeat 20%/9;
+	background: url('../images/white.jpg') repeat 20%;
 }
 
 /*=======================The Following CSS is Dedicated to the Page Banner======================*/
@@ -72,7 +72,7 @@ h1 a:active{
 /*====================The Following CSS is Dedicated to the page Main Navigation==================*/
 header nav ul li{
 	width: 15.25%;
-	background: url('../images/navbg.jpg') repeat 20%/9;
+	background: url('../images/navbg.jpg') repeat 20%;
 	float: left;
 	padding: .5em /*4px/16px */;
 	list-style-type: none;
@@ -80,7 +80,7 @@ header nav ul li{
 
 header nav ul li a{
 	text-decoration: none;
-	background: url('../images/footerbg.jpg') repeat 20%/9;
+	background: url('../images/footerbg.jpg') repeat 20%;
 	display: block;
 	height: 2em;
 	line-height: 2em;
@@ -94,18 +94,18 @@ header nav ul li a:visited{
 
 header nav ul li a:hover{
 	color: #fff;
-	background: url('../images/navbg.jpg') repeat 20%/9;
+	background: url('../images/navbg.jpg') repeat 20%;
 }
 
 header nav ul li a:active{
 	color: #f00;
-	background: url('../images/footerbg.jpg') repeat 20%/9;
+	background: url('../images/footerbg.jpg') repeat 20%;
 }
 
 /*====================The Following CSS is Dedicated to the Page Content==================*/
 
 .row1, .row2, .row3 {
-	background: #fff/9;
+	background: #fff;
 	float: left;
 	margin: 10px;
 	height: 200px;
@@ -130,7 +130,7 @@ header nav ul li a:active{
 /*====================The Following CSS is Dedicated to the page Footer==================*/
 
 .footerbgcontainer{
-	background: url('../images/footerbg.jpg') repeat 20%/9;
+	background: url('../images/footerbg.jpg') repeat 20%;
 	color: white;
 	width: 97%;
 	padding: .5em;
@@ -148,7 +148,7 @@ header nav ul li a:active{
 /*===============================================================================================*/
 
 .contactform, .pageside_right table{
-background: #fff/9;
+background: #fff;
 width: 98%;
 }
 
@@ -163,7 +163,7 @@ width: 98%;
 /*====== THIS CSS IS FOR THE GENERIC PAGES. IT IS FOR THE REST OF THE PAGES ON THE WEBSITE ======*/
 /*===============================================================================================*/
 .teachers, .parents_page, .kids_page, .finditquick, .contactform_left, .contactform_right, .links{
-background: #fff/9;
+background: #fff;
 width: 98%;
 }
 
@@ -174,7 +174,7 @@ height: 100px;
 /*--------Code for the Generic Links-------------------------------------------------------------*/
 .links ul li{
 	width: 30%;
-	background: #fff/9;
+	background: #fff;
 	float: left;
 	padding: .5em /*4px/16px */;
 	list-style-type: none;
@@ -182,7 +182,7 @@ height: 100px;
 
 section ul li a{
 	text-decoration: none;
-	background: #000/9;
+	background: #000;
 	display: block;
 	height: 2em;
 	line-height: 2em;
@@ -196,12 +196,12 @@ section ul li a:visited{
 
 section ul li a:hover{
 	color: #fff;
-	background: url('../images/navbg.jpg') repeat 20%/9;
+	background: url('../images/navbg.jpg') repeat 20%;
 }
 
 section ul li a:active{
 	color: #f00;
-	background: url('../images/footerbg.jpg') repeat 20%/9;
+	background: url('../images/footerbg.jpg') repeat 20%;
 }
 
 
