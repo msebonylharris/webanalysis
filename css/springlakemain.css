@@ -147,7 +147,7 @@ header nav ul li a:active{
 /*============================= THIS CSS IS USED FOR THE FORM PAGE ONLY =========================*/
 /*===============================================================================================*/
 
-.contactform, .pageside_right table{
+.contactform_left, .contactform_right, .pageside_right table{
 background: #fff;
 width: 98%;
 }
@@ -158,7 +158,6 @@ width: 98%;
 
 
 /*-----------------------------THIS CONCLUDES THE FORM PAGE CSS ----------------------------------*/
-
 
 /*====== THIS CSS IS FOR THE GENERIC PAGES. IT IS FOR THE REST OF THE PAGES ON THE WEBSITE ======*/
 /*===============================================================================================*/
@@ -203,7 +202,6 @@ section ul li a:active{
 	color: #f00;
 	background: url('../images/footerbg.jpg') repeat 20%;
 }
-
 
 /*------------------------------- THIS CONCLUDES THE GENERIC PAGES CSS --------------------------*/
 
