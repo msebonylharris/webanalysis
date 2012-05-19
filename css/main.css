@@ -53,7 +53,7 @@ h1{
 	color: #fff;
 }
 
-h2, h3, h4{
+h2, h3, h4,{
 	font-size: 2em;
 	width: 100%;
 }
@@ -65,6 +65,7 @@ h4{
 h5, h6{
 	font-size: 1.25em;
 }
+
 
 /*============This part of the css is dedicated to the site intent and competition analysis sections*/
 section{
