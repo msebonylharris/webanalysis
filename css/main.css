@@ -116,3 +116,8 @@ img{
 #main_photo_container img{
 	max-width: 100%;
 }
+/*========= THIS SECTION IS DEDICATED TO THE FORM ON THE USER TEST*/
+
+table tr .cb_1, table tr .cb_2, table tr .cb_3, table tr .cb_4, table tr .cb_5, table tr .cb_6{
+	width= auto;
+}
