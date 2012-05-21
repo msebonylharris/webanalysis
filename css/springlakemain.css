@@ -102,6 +102,102 @@ header nav ul li a:active{
 	background: url('../images/footerbg.jpg') repeat 20%;
 }
 
+/*========== This part of the CSS is dedicated to the Kids Zone Page ===================*/
+#kid_html{
+	background: #fff;
+}
+/*==== LINKS ====*/
+.color1 a, .color1 a:visited{
+	color: #fff;
+	background: green;
+} 
+
+.color2 a, .color2 a:visited{
+	color: #fff;
+	background: #f60;
+} 
+
+.color3 a, .color3 a:visited{
+	color: #fff;
+	background: #900;
+} 
+
+.color4 a, .color4 a:visited{
+	color: #fff;
+	background: #309;
+}
+
+.color5 a, .color5 a:visited{
+	color: #fff;
+	background: #c0f;
+} 
+
+.color6 a, .color6 a:visited{
+	color: #fff;
+	background: #f39;
+}
+
+.color1 a:hover{
+	color: #fff;
+	background: #3c0;
+} 
+
+.color2 a:hover{
+	color: #fff;
+	background: #f90;
+} 
+
+.color3 a:hover{
+	color: #fff;
+	background: #c00;
+} 
+
+.color4 a:hover{
+	color: #fff;
+	background: #369;
+}
+
+.color5 a:hover{
+	color: #fff;
+	background: #c6f;
+} 
+
+.color6 a:hover{
+	color: #fff;
+	background: #f69;
+}
+
+.color1 a:active{
+	color: #fff;
+	
+} 
+
+.color2 a:active{
+	color: #fff;
+	
+} 
+
+.color3 a:active{
+	color: #fff;
+	
+} 
+
+.color4 a:active{
+	color: #fff;
+	
+}
+
+.color5 a:active{
+	color: #fff;
+	
+} 
+
+.color6 a:active{
+	color: #fff;
+	
+}
+
+
 /*====================The Following CSS is Dedicated to the Page Content==================*/
 
 .row1, .row2, .row3 {
@@ -156,6 +252,61 @@ width: 98%;
 width: 98%;
 }
 
+.pageside_left ul li{
+	list-style-type: none;
+	padding: .5em;
+}
+
+form{
+	background: -webkit-gradient (linear, bottom, left 175px, from(#CCC), to(#EEE));
+	background: -moz-linear-gradient(bottom, #CCC, #EEE 175px);
+	margin:auto;
+	position:relative;
+	width: 300px;
+	height: 765px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1em;
+	font-style: italic;
+	line-height: auto;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	-webkit-border-radius: .625em;
+	-moz-border-radius: .625em;
+	border-radius: .625em;
+	-webkit-padding:  0em .5em 0em .5em;
+	-moz-padding:  0em .5em 0em .5em;
+	padding:  0em .5em 0em .5em;
+	-webkit-border: inset .0625em solid #000;
+	-moz-border: inset .0625em solid #000;
+	border: inset .0625em solid #000;
+	-webkit-box-shadow: 0em 0em .5em rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0em 0em .5em rgba(0, 0, 0, 0.3);
+	box-shadow: 0em 0em .5em rgba(0, 0, 0, 0.3);
+}
+
+/*table{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000;
+}*/
+
+select, textarea, input{
+	width: 200px
+	height: 300px;
+	background: #ccc;
+	padding:  .5em 10em .5em 5em;
+  	margin: .5em 10em .5em 5em;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000;
+	float: right;
+}
+
+.link{
+	padding: .5em 1em .5em 1em;
+  	margin: .5em 1em .5em 1em;
+}
 
 /*-----------------------------THIS CONCLUDES THE FORM PAGE CSS ----------------------------------*/
 
@@ -305,7 +456,7 @@ body{
   	font-size: 1em;
 }
 
-header nav ul li{
+header nav ul li, a{
 	width: 95%;
 	}
 
@@ -330,6 +481,22 @@ footer{
 .row1, .row2, .row3 {
 	height: 200px;
 	}
+select, textarea, input{
+	width: 500px
+	padding:  0;
+  	margin: 0;
+	}
+
+.link{
+	padding: .5em 1em .5em 1em;
+  	margin: .5em 1em .5em 1em;
+	}
+
+form{
+	height: 950px;
+}
+
+
 }
 /*==================== THE FOLLOWING MEDIA QUEREIS ARE FOR 590PX OR LESS =========================*/
 @media screen and (max-width: 590px) {
