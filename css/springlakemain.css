@@ -68,12 +68,7 @@ h1 a:visited{
 	color: url('../images/white.jpg') repeat 20%;
 }
 
-h1 a:hover{
-	color: #110588;
-	background: url('../images/white.jpg') repeat 20%;
-}
-
-h1 a:active{
+h1 a:hover, h1 a:active{
 	color: #110588;
 	background: url('../images/white.jpg') repeat 20%;
 }
@@ -130,6 +125,7 @@ header nav ul li a:active{
 #kid_html{
 	background: #fff;
 }
+
 /*==== LINKS ====*/
 .color1 a, .color1 a:visited{
 	color: #fff;
@@ -266,12 +262,6 @@ header nav ul li a:active{
 
 /*============================= THIS CSS IS USED FOR THE FORM PAGE ONLY =========================*/
 /*===============================================================================================*/
-
-/*.contactform_left, .contactform_right, .pageside_right table*/{
-	background: #fff;
-	width: 98%;
-}
-
 .contact_form{
 	width: 95%;
 	background: white; 
