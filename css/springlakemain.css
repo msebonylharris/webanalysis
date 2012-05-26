@@ -127,96 +127,66 @@ header nav ul li a:active{
 }
 
 /*==== LINKS ====*/
-.color1 a, .color1 a:visited{
+.color1 a, .color1 a:visited, .color2 a, .color2 a:visited, .color3 a, .color3 a:visited, .color4 a, .color4 a:visited, .color5 a, .color5 a:visited, .color6 a, .color6 a:visited{
 	color: #fff;
+} 
+
+.color1 a, .color1 a:visited{
 	background: green;
 } 
 
 .color2 a, .color2 a:visited{
-	color: #fff;
 	background: #f60;
 } 
 
 .color3 a, .color3 a:visited{
-	color: #fff;
 	background: #900;
 } 
 
 .color4 a, .color4 a:visited{
-	color: #fff;
 	background: #309;
 }
 
 .color5 a, .color5 a:visited{
-	color: #fff;
 	background: #c0f;
 } 
 
 .color6 a, .color6 a:visited{
-	color: #fff;
 	background: #f39;
 }
 
-.color1 a:hover{
+.color1 a:hover, .color2 a:hover, .color3 a:hover, .color4 a:hover, .color5 a:hover, .color6 a:hover, .color6 a:hover{
 	color: #fff;
 	background: #3c0;
 } 
 
+.color1 a:hover{
+	background: #3c0;
+} 
+
 .color2 a:hover{
-	color: #fff;
 	background: #f90;
 } 
 
 .color3 a:hover{
-	color: #fff;
 	background: #c00;
 } 
 
 .color4 a:hover{
-	color: #fff;
 	background: #369;
 }
 
 .color5 a:hover{
-	color: #fff;
 	background: #c6f;
 } 
 
 .color6 a:hover{
-	color: #fff;
 	background: #f69;
 }
 
-.color1 a:active{
-	color: #fff;
-	
+.color1 a:active, .color2 a:active, .color3 a:active, .color4 a:active, .color5 a:active, .color6 a:active{
+	color: #fff;	
 } 
-
-.color2 a:active{
-	color: #fff;
-	
-} 
-
-.color3 a:active{
-	color: #fff;
-	
-} 
-
-.color4 a:active{
-	color: #fff;
-	
-}
-
-.color5 a:active{
-	color: #fff;
-	
-} 
-
-.color6 a:active{
-	color: #fff;
-	
-}
-
 
 /*====================The Following CSS is Dedicated to the Page Content==================*/
 
@@ -273,38 +243,19 @@ header nav ul li a:active{
 }
 
 form{
-	background: -webkit-gradient (linear, bottom, left 300px, from(#CCC), to(#EEE));
-	background: -moz-linear-gradient(bottom, #CCC, #EEE 300px);
 	margin: auto;
 	position: relative;
 	width: 300px;
 	height: 950px;
-	font-family: Tahoma, Geneva, sans-serif;
-	font-size: .875em;
-	font-style: italic;
+	font: .875em Tahoma, Geneva, sans-serif italic;
 	line-height: auto;
-	font-weight: bold;
 	color: #000;
 	text-decoration: none;
-	-webkit-border-radius: .625em;
-	-moz-border-radius: .625em;
 	border-radius: .625em;
-	-webkit-padding:  1em 1em 1em 1em;
-	-moz-padding:  1em 1em 1em 1em;
-	padding:  1em 1em 1em 1em;
-	-webkit-border: inset .0625em solid #000;
-	-moz-border: inset .0625em solid #000;
+	padding:  0em 0em 0em 0em;
 	border: inset .0625em solid #000;
-	-webkit-box-shadow: 0em 0em 1em rgba(0, 0, 0, 0.3);
-	-moz-box-shadow: 0em 0em 1em rgba(0, 0, 0, 0.3);
 	box-shadow: 0em 0em 1em rgba(0, 0, 0, 0.3);
 	}
-
-/*table{
-	border-width: 1px;
-	border-style: solid;
-	border-color: #000;
-}*/
 
 select, textarea, input{
 	width: 200px
@@ -323,12 +274,8 @@ select, textarea, input{
   	margin: .5em 1em .5em 1em;
 }
 
-.checkbox_right{
+.checkbox_right, .newsletter, .submit{
 	float: left;
-}
-
-.newsletter, .submit{
-	float: left
 }
 
 /*-----------------------------THIS CONCLUDES THE FORM PAGE CSS ----------------------------------*/
@@ -339,10 +286,6 @@ select, textarea, input{
 	background: url('../images/body.png') repeat 20%;
 	width: 98%;
 }
-
-/*.teachers{
-	height: 100px;
-}*/
 
 /*--------Code for the Generic Links-------------------------------------------------------------*/
 .links ul li{
@@ -371,14 +314,9 @@ section ul li a:visited{
 	color: #fff;
 }
 
-section ul li a:hover{
+section ul li a:active, section ul li a:hover, {
 	color: #fff;
 	background: #00f;
-}
-
-section ul li a:active{
-	color: #fff;
-	background: 00f;
 }
 
 /*------------------------------- THIS CONCLUDES THE GENERIC PAGES CSS --------------------------*/
@@ -399,8 +337,7 @@ table{
 	width: 80%;
   }
   
-.footer_nav{
-  	/*float: left;*/
+.footer_nav, .checkbox{
   	clear: both;
 }
 
@@ -416,11 +353,6 @@ footer table{
 	width: 20%;
 }
 
-.checkbox{
-	clear: both;
-}
-
-
 /*-----------------------------------------MEDIA QUERIES------------------------------------------*/
 /*==================== THE FOLLOWING MEDIA QUEREIS ARE FOR 1300PX - 1400PX OR LESS ===============*/
 @media screen and (max-width: 1400px) {
@@ -428,6 +360,7 @@ header nav ul li{
 	width: 15%;
 	}
 }
+
 /*==================== THE FOLLOWING MEDIA QUEREIS ARE FOR 980PX OR LESS =========================*/
 @media screen and (max-width: 1280px) {
 body{
@@ -441,9 +374,11 @@ header nav ul li{
 .row1{
 	width: 35%;
 }
+
 .row2{
 	width: 33%;
 }
+
 .row3{
 	width: 25%;
 }
@@ -452,6 +387,7 @@ header nav ul li{
 	height: 250px;
 	}
 }
+
 /*==================== THE FOLLOWING MEDIA QUEREIS ARE FOR 980PX OR LESS =========================*/
 @media screen and (max-width: 980px) {
 
@@ -474,19 +410,24 @@ h1{
 .row1{
 	width: 33%;
 	}
+	
 .row2{
 	width: 29%;
 	}
+	
 .row3{
 	width: 25%;
 	}
+	
 #row1, #row2, #row3{
 	height: 375px;
 	}
+	
 .row1, .row2, .row3 {
 	height: 300px;
 	}
 }
+
 /*==================== THE FOLLOWING MEDIA QUEREIS ARE FOR 750PX OR LESS =========================*/
 @media screen and (max-width: 750px) {
 body{
@@ -500,26 +441,21 @@ header nav ul li, a{
 h1{
 	font-size: 1.75em;
 	}
-.row1{
-	width: 95%;
-	}
-.row2{
-	width: 95%;
-	}
-.row3{
-	width: 95%;
-	}
+	
 footer{
 	display:none;
     }
+    
 #row1, #row2, #row3{
 	height: 225px;
 	}
+	
 .row1, .row2, .row3 {
 	height: 200px;
 	}
 select, textarea, input{
-	width: 500px
+	width: 100px
+	height: 200px;
 	padding:  0;
   	margin: 0;
 	}
@@ -532,14 +468,7 @@ select, textarea, input{
 
 form{
 	height: 950px;
-}
-select, textarea, input{
-	width: 100px
-	height: 200px;
-}
-
-
-
+	}
 }
 /*==================== THE FOLLOWING MEDIA QUEREIS ARE FOR 590PX OR LESS =========================*/
 @media screen and (max-width: 590px) {
@@ -552,27 +481,13 @@ h1{
 	display: none;
 	}
 
-.row1{
+.row1, .row2, .row3, .links ul li{
 	width: 95%;
 	}
 	
-.row2{
-	width: 95%;
-	}
-	
-.row3{
-	width: 95%;
-	}
-
 .link, ul li a{
 	font-size:9;
 	}
-
-.links ul li{
-	width: 95%;
-	}
-
-}
 
 /*==================== THE FOLLOWING MEDIA QUEREIS ARE FOR 480PX OR LESS =========================*/
 @media screen and (max-width: 480px) {
@@ -588,4 +503,3 @@ header nav ul li{
 #row1, #row2, #row3, .row1, .row2, .row{
 	height: auto;
 	}
-}
