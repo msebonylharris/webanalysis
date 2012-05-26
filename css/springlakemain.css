@@ -1,5 +1,9 @@
 /*=======================The Following CSS is Dedicated to the Body ========================*/
 /*Covers the font, border, padding, margin, background, page width and height*/
+html{
+	background: white;
+	}
+
 body{
   	float: left;
   	color: black;
