@@ -242,14 +242,42 @@ header nav ul li a:active{
 	padding: .5em;
 }
 
-iframe{
-	padding: 2em 1em 1em 2em;
-	width: 100%;
+form{
+	margin: auto;
+	position: relative;
+	width: 300px;
+	height: 700px;
+	font: .875em Tahoma, Geneva, sans-serif italic;
+	line-height: .875em;
+	color: #000;
+	text-decoration: none;
+	border-radius: .625em;
+	padding:  0em 0em 0em 0em;
+	border: inset .0625em solid #000;
+	box-shadow: 0em 0em 1em rgba(0, 0, 0, 0.3);
+	}
+
+select, textarea, input{
+	width: 200px
+	height: 300px;
+	background: #ccc;
+	padding:  .5em 10em .5em 5em;
+  	margin: .5em 10em .5em 5em;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000;
+	float: right;
 }
 
-#frame_container{
-	width: 90%;
+.link{
+	padding: .5em 1em .5em 1em;
+  	margin: .5em 1em .5em 1em;
 }
+
+.checkbox_right, .newsletter, .submit{
+	float: left;
+}
+
 /*-----------------------------THIS CONCLUDES THE FORM PAGE CSS ----------------------------------*/
 
 /*====== THIS CSS IS FOR THE GENERIC PAGES. IT IS FOR THE REST OF THE PAGES ON THE WEBSITE ======*/
@@ -439,7 +467,7 @@ select, textarea, input{
 	}
 
 form{
-	height: 950px;
+	height: 550px;
 	}
 }
 /*==================== THE FOLLOWING MEDIA QUEREIS ARE FOR 590PX OR LESS =========================*/
@@ -461,11 +489,16 @@ h1{
 	font-size:9;
 	}
 
-/*==================== THE FOLLOWING MEDIA QUEREIS ARE FOR 480PX OR LESS =========================*/
-@media screen and (max-width: 480px) {
+form{
+	height: 575px;
+	}
+
+
+/*==================== THE FOLLOWING MEDIA QUEREIS ARE FOR 495PX OR LESS =========================*/
+@media screen and (max-width: 495px) {
 
 h1{
-	font-size: 1em;
+	font-size: .75em;
 	}
 
 header nav ul li{
@@ -475,3 +508,8 @@ header nav ul li{
 #row1, #row2, #row3, .row1, .row2, .row{
 	height: auto;
 	}
+	
+form{
+	display: none;
+	}
+
