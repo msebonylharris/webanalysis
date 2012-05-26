@@ -1,9 +1,10 @@
 /*=======================The Following CSS is Dedicated to the Body ========================*/
+/*Covers the font, border, padding, margin, background, page width and height*/
 body{
   	float: left;
   	color: black;
   	font: 1em Georgia, Verdana, ariel;
-  	border: .25em solid #fff;
+  	border: .25em solid #f00;
  	padding: 10px;
 	margin: 10px;
 	background: url('../images/black.jpg') repeat 20%;
@@ -22,6 +23,21 @@ h2{
 
 }
 
+#browser_update{
+	background-color: #f00;
+}
+
+#browser_update a{
+	text-decoration: none;
+	background: #f00;
+	display: block;
+	height: 2em;
+	line-height: 2em;
+	text-align: center;
+	color: #110588;
+	color: #fff;
+
+}
 /*=======================The Following CSS is Dedicated to the page Header========================*/
 /*-------Note, the Header also acts as an Escape Hatch that takes you back to the main page-------*/
 /*========= So that their is no major difference in design, the Header should always display the same
@@ -102,6 +118,49 @@ header nav ul li a:active{
 	background: url('../images/footerbg.jpg') repeat 20%;
 }
 
+.current_page a{
+	color: #fff;
+}
+
+/* This css is dedicatedCalender Styling */
+
+.calender{ 
+	float: left; 
+	width: 50px; 
+	height: 50px; 
+	border: solid 1px #404040; 
+	text-align: center; 
+	color: #404040; 
+	background-color: #fff; 
+	padding: 0; 
+	margin: 5px; 
+	}
+
+.month, .date, .year { 
+	padding: 1px 0; 
+	margin: 0; 
+	}
+
+.month { 
+	color: #fffbff; 
+	text-transform: uppercase; 
+	font-size: 9px; 
+	background: #fff; 
+	border-bottom: solid 1px #404040; 
+	}
+
+.date { 
+	font-size: 14px; 
+	font-weight: 600; 
+	color: #880000; 
+	}
+
+.year { 
+	font-size: 8px; 
+	padding: 0; 
+	}
+
+/*end of calendar css*/	
 /*========== This part of the CSS is dedicated to the Kids Zone Page ===================*/
 #kid_html{
 	background: #fff;
@@ -243,13 +302,14 @@ header nav ul li a:active{
 /*============================= THIS CSS IS USED FOR THE FORM PAGE ONLY =========================*/
 /*===============================================================================================*/
 
-.contactform_left, .contactform_right, .pageside_right table{
-background: #fff;
-width: 98%;
+/*.contactform_left, .contactform_right, .pageside_right table*/{
+	background: #fff;
+	width: 98%;
 }
 
 .contact_form{
-width: 98%;
+	width: 95%;
+	background: white; 
 }
 
 .pageside_left ul li{
@@ -258,14 +318,14 @@ width: 98%;
 }
 
 form{
-	background: -webkit-gradient (linear, bottom, left 175px, from(#CCC), to(#EEE));
-	background: -moz-linear-gradient(bottom, #CCC, #EEE 175px);
-	margin:auto;
-	position:relative;
+	background: -webkit-gradient (linear, bottom, left 300px, from(#CCC), to(#EEE));
+	background: -moz-linear-gradient(bottom, #CCC, #EEE 300px);
+	margin: auto;
+	position: relative;
 	width: 300px;
-	height: 765px;
+	height: 950px;
 	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 1em;
+	font-size: .875em;
 	font-style: italic;
 	line-height: auto;
 	font-weight: bold;
@@ -274,16 +334,16 @@ form{
 	-webkit-border-radius: .625em;
 	-moz-border-radius: .625em;
 	border-radius: .625em;
-	-webkit-padding:  0em .5em 0em .5em;
-	-moz-padding:  0em .5em 0em .5em;
-	padding:  0em .5em 0em .5em;
+	-webkit-padding:  1em 1em 1em 1em;
+	-moz-padding:  1em 1em 1em 1em;
+	padding:  1em 1em 1em 1em;
 	-webkit-border: inset .0625em solid #000;
 	-moz-border: inset .0625em solid #000;
 	border: inset .0625em solid #000;
-	-webkit-box-shadow: 0em 0em .5em rgba(0, 0, 0, 0.3);
-	-moz-box-shadow: 0em 0em .5em rgba(0, 0, 0, 0.3);
-	box-shadow: 0em 0em .5em rgba(0, 0, 0, 0.3);
-}
+	-webkit-box-shadow: 0em 0em 1em rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0em 0em 1em rgba(0, 0, 0, 0.3);
+	box-shadow: 0em 0em 1em rgba(0, 0, 0, 0.3);
+	}
 
 /*table{
 	border-width: 1px;
@@ -308,17 +368,25 @@ select, textarea, input{
   	margin: .5em 1em .5em 1em;
 }
 
+.checkbox_right{
+	float: left;
+}
+
+.newsletter, .submit{
+	float: left
+}
+
 /*-----------------------------THIS CONCLUDES THE FORM PAGE CSS ----------------------------------*/
 
 /*====== THIS CSS IS FOR THE GENERIC PAGES. IT IS FOR THE REST OF THE PAGES ON THE WEBSITE ======*/
 /*===============================================================================================*/
 .teachers, .parents_page, .kids_page, .finditquick, .contactform_left, .contactform_right, .links{
-background: #fff;
-width: 98%;
+	background: url('../images/body.png') repeat 20%;
+	width: 98%;
 }
 
 /*.teachers{
-height: 100px;
+	height: 100px;
 }*/
 
 /*--------Code for the Generic Links-------------------------------------------------------------*/
@@ -330,28 +398,32 @@ height: 100px;
 	list-style-type: none;
 	}
 
+.links{
+	border: #f00;
+}
+
 section ul li a{
 	text-decoration: none;
-	background: #000;
+	background: #30c;
 	display: block;
 	height: 2em;
 	line-height: 2em;
 	text-align: center;
-	color: #f00;
+	color: #fff;
 }
 
 section ul li a:visited{
-	color: #f00;
+	color: #fff;
 }
 
 section ul li a:hover{
 	color: #fff;
-	background: url('../images/navbg.jpg') repeat 20%;
+	background: #00f;
 }
 
 section ul li a:active{
-	color: #f00;
-	background: url('../images/footerbg.jpg') repeat 20%;
+	color: #fff;
+	background: 00f;
 }
 
 /*------------------------------- THIS CONCLUDES THE GENERIC PAGES CSS --------------------------*/
@@ -369,11 +441,12 @@ table{
   	float: right;
   	padding: .5em;
   	margin: 1em;
-	width: 100%;
+	width: 80%;
   }
   
 .footer_nav{
-  	float: left;
+  	/*float: left;*/
+  	clear: both;
 }
 
 footer section{
@@ -383,6 +456,15 @@ footer section{
 footer table{
 	background: none;
 }
+
+.title{
+	width: 20%;
+}
+
+.checkbox{
+	clear: both;
+}
+
 
 /*-----------------------------------------MEDIA QUERIES------------------------------------------*/
 /*==================== THE FOLLOWING MEDIA QUEREIS ARE FOR 1300PX - 1400PX OR LESS ===============*/
@@ -490,11 +572,17 @@ select, textarea, input{
 .link{
 	padding: .5em 1em .5em 1em;
   	margin: .5em 1em .5em 1em;
+  	font-size: 12px;
 	}
 
 form{
 	height: 950px;
 }
+select, textarea, input{
+	width: 100px
+	height: 200px;
+}
+
 
 
 }
@@ -512,12 +600,23 @@ h1{
 .row1{
 	width: 95%;
 	}
+	
 .row2{
 	width: 95%;
 	}
+	
 .row3{
 	width: 95%;
 	}
+
+.link, ul li a{
+	font-size:9;
+	}
+
+.links ul li{
+	width: 95%;
+	}
+
 }
 
 /*==================== THE FOLLOWING MEDIA QUEREIS ARE FOR 480PX OR LESS =========================*/
@@ -530,6 +629,7 @@ h1{
 header nav ul li{
 	width: 100%;
 	}
+	
 #row1, #row2, #row3, .row1, .row2, .row{
 	height: auto;
 	}
